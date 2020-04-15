@@ -10,7 +10,7 @@ ms.service: active-directory
 ms.subservice: domain-services
 ms.workload: identity
 ms.topic: how-to
-ms.date: 03/30/2020
+ms.date: 15/4/2020
 ms.author: iainfou
 
 ---
@@ -59,7 +59,7 @@ All users, regardless of how they're created, have the following account lockout
 
 * **Account lockout duration:** 30
 * **Number of failed logon attempts allowed:** 5
-* **Reset failed logon attempts count after:** 30 minutes
+* **Reset failed logon attempts count after:** 2 minutes
 * **Maximum password age (lifetime):** 90 days
 
 With these default settings, user accounts are locked out for 30 minutes if five invalid passwords are used within 2 minutes. Accounts are automatically unlocked after 30 minutes.
